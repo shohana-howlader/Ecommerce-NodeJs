@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1714386647020",
+    "name": "sari",
+    "description": "cotton",
+    "price": "5000",
+    "stock": 18,
+    "photo": "1714386647009.jpg"
+  },
+  {
+    "id": "1714387565584",
+    "name": "Cloth",
+    "description": "New",
+    "price": "2000",
+    "stock": 196,
+    "photo": "1714387565580.jpg"
+  },
+  {
+    "id": "1714387606830",
+    "name": "baby Cloth ",
+    "description": "new",
+    "price": "3000",
+    "stock": 14,
+    "photo": "1714387606824.jpg"
+  },
+  {
+    "id": "1714392268863",
+    "name": "Frock ",
+    "description": "Baby products ",
+    "price": "2000",
+    "stock": 19,
+    "photo": "1714392268859.png"
+  },
+  {
+    "id": "1714392299668",
+    "name": "Frock ",
+    "description": "new",
+    "price": "3000",
+    "stock": 9,
+    "photo": "1714392299662.png"
+  }
+]

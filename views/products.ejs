@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/product.css" />
+    <title>ShohanaFashion Online Clothing Store</title>
+  </head>
+  <body class="container">
+    <%- include('partials/header') %>
+    <h1>Pick from our wide range of fashion products</h1>
+    <br />
+    <h2>Check out our items in the products section</h2>
+    <br />
+    <marquee><h3><b>Welcome to Shohana Fashion Online Store</b></h3></marquee>
+    <h1 id="proSec">Products</h1>
+    <ul class="productUL">
+      <% products.forEach(product => { %>
+      <li>
+        <a href="/products/<%= product.id %>">
+          <h2><%= product.name %></h2>
+          <% if (product.photo) { %>
+          <img
+            height="100"
+            src="/uploads/<%= product.photo %>"
+            alt="<%= product.name %>"
+          />
+          <% } %>
+        </a>
+        <p><%= product.description %></p>
+        <p>Price: <%= product.price %></p>
+        <p>Stock: <%= product.stock %></p>
+        <form action="/products/add-to-cart" method="POST">
+          <input type="hidden" name="productId" value="<%= product.id %>" />
+          <input type="hidden" name="price" value="<%= product.price %>" />
+          <button type="submit">Add to Cart</button>
+        </form>
+        <% if (product.stock > 0) { %>
+        
+        <% } %>
+      </li>
+      <% }) %>
+    </ul>
+    <%- include('partials/footer') %>
+  </body>
+</html>
