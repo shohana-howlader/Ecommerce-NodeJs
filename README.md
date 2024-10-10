@@ -1,6 +1,6 @@
 # Ecommerce-NodeJs
 
-This project is an e-commerce platform developed using **Node.js**, **Express.js**, and **MongoDB**, designed to provide full-stack functionality for managing an online store. The application follows the **MVC (Model-View-Controller)** pattern and incorporates user authentication, product management, and shopping cart functionality.
+This project is an e-commerce platform developed using **Node.js**, **Express.js**, designed to provide full-stack functionality for managing an online store. The application follows the **MVC (Model-View-Controller)** pattern and incorporates user authentication, product management, and shopping cart functionality.
 
 ## Features
 
