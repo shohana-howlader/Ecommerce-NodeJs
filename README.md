@@ -57,17 +57,17 @@ Follow these steps to set up and run the project locally:
    http://localhost:3000
 
 ## Usage
-- **Product Management: Admins can add, update, or delete products.
-- **Cart Functionality: Users can add products to the cart, view items in the cart, and update quantities.
+- Product Management: Admins can add, update, or delete products.
+- Cart Functionality: Users can add products to the cart, view items in the cart, and update quantities.
 
 ## Future Enhancements
-- **Add database integration (e.g., MongoDB).
-- **Implement user authentication.
-- **Improve the UI for a more modern look and feel.
+- Add database integration (e.g., MongoDB).
+- Implement user authentication.
+- Improve the UI for a more modern look and feel.
 ## Contributing
 - **Contributions are welcome! Feel free to submit pull requests or report issues.
 
 ## License
-- **This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
 
 
