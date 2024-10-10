@@ -30,7 +30,7 @@ This project is an e-commerce platform developed using **Node.js**, **Express.js
 Before you begin, ensure you have met the following requirements:
 
 - **Node.js** and **npm** are installed on your machine.
-- **MongoDB** is installed and running.
+
 
 ## Installation
 
@@ -39,3 +39,35 @@ Follow these steps to set up and run the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/shohana-howlader/Ecommerce-NodeJs.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd Ecommerce-NodeJs
+
+3. Install the dependencies:
+   ```bash
+   npm install
+
+4. Start the application:
+   ```bash
+   npm start
+
+5. Open your browser and navigate to:
+   ```bash
+   http://localhost:3000
+
+## Usage
+- **Product Management: Admins can add, update, or delete products.
+- **Cart Functionality: Users can add products to the cart, view items in the cart, and update quantities.
+
+## Future Enhancements
+- **Add database integration (e.g., MongoDB).
+- **Implement user authentication.
+- **Improve the UI for a more modern look and feel.
+## Contributing
+- **Contributions are welcome! Feel free to submit pull requests or report issues.
+
+## License
+- **This project is licensed under the MIT License.
+
+
